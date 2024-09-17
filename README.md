@@ -1,6 +1,6 @@
 # Proyecto 7
 
-Este es mi proyecto 6. En él trabajo por primera vez con una BBDD de Mongo Atlas y creo colecciones con datos relacionados entre ellos, haciendo peticiones a través de Insomnia y comprobando el funcionamiento de cada uno de los elementos del CRUD según los permisos otorgados a los usuarios.
+Este es mi proyecto 7. En él trabajo por primera vez con una BBDD de Mongo Atlas y creo colecciones con datos relacionados entre ellos, haciendo peticiones a través de Insomnia y comprobando el funcionamiento de cada uno de los elementos del CRUD según los permisos otorgados a los usuarios.
 
 Está basado en elementos base del fútbol. Lo componen 3 colecciones, Marcas, Modelos  y Usuarios, con permisos otorgados a cada uno según el rol que posea, para poder realizar diferentes acciones.. Están organizados y entrelazados por diversos recursos que comparten entre ellos.
 
