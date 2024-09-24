@@ -53,8 +53,8 @@ Users:
 http://localhost:3000/api/v1/users/register (post - registro) usuarios
 http://localhost:3000/api/v1/users/login (post - login) usuarios
 http://localhost:3000/api/v1/users/ (get) - administradores
-http://localhost:3000/api/v1/brands/66e97c567eeb8bc4dfb2ce71 (put) administradores
-http://localhost:3000/api/v1/brands/66e97c567eeb8bc4dfb2ce71 (delete) usuarios registrados a si mismos o administradores
+http://localhost:3000/api/v1/users/66e97c567eeb8bc4dfb2ce71 (put) administradores
+http://localhost:3000/api/v1/users/66e97c567eeb8bc4dfb2ce71 (delete) usuarios registrados a si mismos o administradores
 
 ``` 
 ## Características
