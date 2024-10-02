@@ -7,8 +7,8 @@ const userSchema = new mongoose.Schema(
     password: { type: String, required: true },
     email: { type: String, trim: true, required: true, unique: true },
     age: { type: Number, trim: true, required: true },
-    favoritos: [
-      { type: mongoose.Types.ObjectId, required: false, ref: "libros" },
+    favorites: [
+      { type: mongoose.Types.ObjectId, required: false, ref: "models" },
     ],
     rol: {
       type: String,
