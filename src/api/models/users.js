@@ -7,10 +7,13 @@ const userSchema = new mongoose.Schema(
     password: { type: String, required: true },
     email: { type: String, trim: true, required: true, unique: true },
     age: { type: Number, trim: true, required: true },
+    favoritos: [
+      { type: mongoose.Types.ObjectId, required: false, ref: "libros" },
+    ],
     rol: {
       type: String,
       required: true,
-      enum: ['user'],
+      enum: ['admin','user'],
       default: 'user'
     }
   },
